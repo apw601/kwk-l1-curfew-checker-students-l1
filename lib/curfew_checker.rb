@@ -3,14 +3,15 @@ def simple_curfew_checker(time)
     "You're in trouble! Better get home quick!" 
   end
 end
-
 puts simple_curfew_checker(11)
 
-puts simple_curfew_checker(3)
 
 def curfew_checker(time)
-  # code goes here
+ if time <= 11
+    "Keep having fun!" 
+  end
 end
+puts curfew_checker(5)
 
 def complex_curfew_checker(time)
   # code goes here

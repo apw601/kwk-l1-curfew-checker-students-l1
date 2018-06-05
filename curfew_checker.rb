@@ -1,1 +1,1 @@
-if 
+if time.now.hour < 

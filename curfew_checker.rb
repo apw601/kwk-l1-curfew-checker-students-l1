@@ -4,4 +4,4 @@ def simple_curfew_checker(time)
   end
 end
 
-simple_curfew_checker(3)
+puts simple_curfew_checker(3)

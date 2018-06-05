@@ -13,6 +13,13 @@ def curfew_checker(time)
 end
 puts curfew_checker(5)
 
+def curfew_checker(time)
+ if time >= 11
+    "You're in trouble! Better get home quick!!" 
+  end
+end
+puts curfew_checker(12)
+
 def complex_curfew_checker(time)
   # code goes here
 end

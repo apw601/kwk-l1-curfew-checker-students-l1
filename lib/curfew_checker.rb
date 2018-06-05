@@ -7,7 +7,7 @@ puts simple_curfew_checker(11)
 
 
 def curfew_checker(time)
- if time <= 11
+ if time < 11
     "Keep having fun!" 
   end
 end

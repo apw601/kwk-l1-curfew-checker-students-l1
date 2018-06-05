@@ -4,4 +4,4 @@ def simple_curfew_checker(time)
   end
 end
 
-simple_curfew_checker()
+simple_curfew_checker(3)
